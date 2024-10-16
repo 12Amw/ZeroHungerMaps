@@ -1,0 +1,562 @@
+Log: Log file open, 05/08/2024 20:10:51
+Log: GPsyonixBuildID 240717.49861.454952
+Log: Command line: -AUTH_LOGIN=unused -AUTH_PASSWORD=1f183b64767c456e90910605a378ebbc -AUTH_TYPE=exchangecode -epicapp=Sugar -epicenv=Prod -EpicPortal -epicusername="1Playert" -epicuserid=97a9a973ac0e41ff971b5f5160336fde -epiclocale=en -epicsandboxid=9773aa1aa54f4f7b80e44bef04986cea
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+Log:  ... running in INSTALLED mode
+Init: Language extension: INT
+Init: Language extension: INT
+DevConfig: GConfig::LoadFile associated file:  ..\..\TAGame\Config\TAUI.ini
+Init: Version: 240717.49861.454952
+Init: Compiled (64-bit): Jul 17 2024 14:53:32
+Init: Command line: -AUTH_LOGIN=unused -AUTH_PASSWORD=1f183b64767c456e90910605a378ebbc -AUTH_TYPE=exchangecode -epicapp=Sugar -epicenv=Prod -EpicPortal -epicusername="1Playert" -epicuserid=97a9a973ac0e41ff971b5f5160336fde -epiclocale=en -epicsandboxid=9773aa1aa54f4f7b80e44bef04986cea
+Init: Base directory: E:\Epic Games\rocketleague\Binaries\Win64\
+[0000.53] Log: Purging 30-day cache '..\..\TAGame\Cache\WebCache\*.*'...
+[0000.80] Log: Purging 3-day cache '..\..\TAGame\Logs\*.log'...
+[0000.85] Init: Computer: DESKTOP-CL1FEFJ
+[0000.85] Init: User: DELL
+[0000.85] Init: CPU Page size=4096, Processors=4
+[0000.85] Init: High frequency timer resolution =10.000000 MHz
+[0000.85] Init: Memory total: Physical=15.8GB (16GB approx) Pagefile=18.1GB Virtual=131072.0GB
+[0000.85] Init: Presizing for 138000 objects not considered by GC, pre-allocating 0 bytes.
+[0000.85] Init: Object subsystem initialized
+[0000.92] Log: Using feature set PrimeUpdate51
+[0001.05] Log: FOnlineSubsystemEOS: EOS version = 1.13.0-24551320
+[0001.05] DevOnline: EOS Platform CacheDirectory=C:\Users\DELL\AppData\Local\Rocket League\
+[0001.23] Log: Found D3D11 adapter 0: Intel(R) UHD Graphics
+[0001.23] Log: Adapter has 128MB of dedicated video memory, 0MB of dedicated system memory, and 8066MB of shared system memory
+[0001.23] Log: Found D3D11 adapter 1: Microsoft Basic Render Driver
+[0001.23] Log: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8066MB of shared system memory
+[0001.23] Log: Shader platform (RHI): PC-D3D-SM5
+[0001.27] Breadcrumbs: Startup_PreInit: 1.265
+[0001.29] Breadcrumbs: Startup_LoadGlobalShaders: 0.025
+[0010.34] Log: ProductDatabase_TA::InitProductLabels  0.01 sec total.
+[0010.43] Log: ProductDatabase_TA::UpdateAvailableProducts  0.08 sec total.
+[0010.44] Breadcrumbs: Startup_LoadScriptPackages: 9.144
+[0011.38] Breadcrumbs: Startup_LoadNonNativePackages: 0.947
+[0011.39] Log: 144136 objects as part of root set at end of initial load.
+[0011.39] Log: 0 out of 0 bytes used by permanent object pool.
+[0011.39] Log: ShaderCache load stats: AccumLoadSeconds=(3.849) ShadersLoaded=(390109) Duplicates=(25950)
+[0011.44] Log: Initializing Engine...
+[0011.47] Log: BuildID: -665562285 from GPsyonixBuildID
+[0012.25] SystemSettings: Loading PC Settings
+[0012.27] Breadcrumbs: Startup_BuildGuidCache: 0.893
+[0012.35] Log: Running hardware survey...
+[0012.35] Log: Wwise(R) SDK Version 2019.1.1 Build 6977. Copyright (c) 2006-2012 Audiokinetic Inc. / All Rights Reserved.
+[0012.84] Log: OS: Microsoft Windows 10 Home Single Language  (19045)
+[0012.84] Log: WinSAT: 6.9 [8.8 CPU, 6.9 2D, 9.9 3D, 8.8 Mem, 8.1 Disk]
+[0012.84] Log: Processor: Intel(R) Core(TM) i3-1005G1 CPU @ 1.20GHz (Intel64 Family 6 Model 126 Stepping 5) 2 Cores, 4 Threads
+[0012.84] Log: Memory: 8.00GB
+[0012.84] Log: Memory: 8.00GB
+[0012.84] Log: VideoController: Intel(R) UHD Graphics (31.0.101.2127)
+[0012.84] Breadcrumbs: Startup_ClientInit: 0.561
+[0013.13] Log: Network Adapter: Qualcomm QCA9377 802.11ac Wireless Adapter
+[0013.13] Log: Disk C: 26.45GB free of 118.61GB
+[0013.13] Log: Disk D: 24.42GB free of 27.93GB
+[0013.13] Log: Disk E: 251.92GB free of 465.76GB
+[0013.13] Log: Sound Device: Intel(R) Display Audio
+[0013.13] Log: Sound Device: High Definition Audio Device
+[0013.13] Log: Hardware survey complete in 0.64 seconds.
+[0014.58] Breadcrumbs: Startup_CreateViewport: 1.741
+[0014.63] DevOnline: Created named interface (RecentPlayersList) of type (Engine.OnlineRecentPlayersList)
+[0015.97] EOSGameClips: EOSGameClips: Activate called successfully.
+[0015.97] EOSGameClips: EOSGameClips: Audio initialized successfully.
+[0015.97] EOSGameClips: EOSGameClips: Subscribed to game clips status events successfully.
+[0015.97] EOSGameClips: EOSGameClips: Subscribed to user status events successfully.
+[0015.97] EOSGameClips: EOSGameClips: Successfully initialized!
+[0015.97] ScriptLog: PsyNet using environment DBE_Production Prod
+[0015.98] PsyNet: PsyNetConnection_X_0 disabled OSCS_ServiceUnavailable
+[0015.98] PsyNetStaticData: HandleCacheExpired
+[0015.98] PsyNetStaticData: HandleGetURL URL=(https://config.psynet.gg/v2/Config/BattleCars/-665562285/Prod/Epic/INT/)
+[0015.98] PsyNetStaticData: Blocking sync start
+[0015.99] DevOnline: WebRequest_X_0 SEND: https://config.psynet.gg/v2/Config/BattleCars/-665562285/Prod/Epic/INT/
+[0016.52] DevOnline: WebRequest_X_0 RECV: 304 
+[0016.52] PsyNetStaticData: Blocking sync complete. Elapsed=0.5399
+[0016.52] PsyNetStaticData: HandleDataChanged
+[0016.54] Warning: Warning, Product not found for the XEStatusOverride: 7890
+[0016.54] Warning: Warning, Product not found for the XEStatusOverride: 8463
+[0016.54] Warning: Warning, Product not found for the XEStatusOverride: 8467
+[0016.54] Warning: Warning, Product not found for the XEStatusOverride: 10382
+[0016.54] Warning: Warning, Product not found for the XEStatusOverride: 10386
+[0016.54] Warning: Warning, Product not found for the XEStatusOverride: 8464
+[0016.54] Warning: Warning, Product not found for the XEStatusOverride: 8470
+[0016.54] Warning: Warning, Product not found for the XEStatusOverride: 8465
+[0016.54] Warning: Warning, Product not found for the XEStatusOverride: 5311
+[0016.54] Warning: Warning, Product not found for the XEStatusOverride: 9280
+[0016.54] Warning: Warning, Product not found for the XEStatusOverride: 8742
+[0016.54] Warning: Warning, Product not found for the XEStatusOverride: 8983
+[0016.54] Warning: Warning, Product not found for the XEStatusOverride: 10459
+[0016.54] Warning: Warning, Product not found for the XEStatusOverride: 10460
+[0016.54] Warning: Warning, Product not found for the XEStatusOverride: 10507
+[0016.54] Warning: Warning, Product not found for the XEStatusOverride: 10521
+[0016.54] Warning: Warning, Product not found for the XEStatusOverride: 10522
+[0016.54] Warning: Warning, Product not found for the XEStatusOverride: 10523
+[0016.54] Warning: Warning, Product not found for the XEStatusOverride: 10524
+[0016.54] Warning: Warning, Product not found for the XEStatusOverride: 10543
+[0016.54] Warning: Warning, Product not found for the XEStatusOverride: 10568
+[0016.54] Warning: Warning, Product not found for the XEStatusOverride: 10569
+[0016.54] Warning: Warning, Product not found for the XEStatusOverride: 10572
+[0016.54] Warning: Warning, Product not found for the XEStatusOverride: 10597
+[0016.54] Warning: Warning, Product not found for the XEStatusOverride: 10611
+[0016.54] Warning: Warning, Product not found for the XEStatusOverride: 10614
+[0016.54] Warning: Warning, Product not found for the XEStatusOverride: 10615
+[0016.54] Warning: Warning, Product not found for the XEStatusOverride: 10621
+[0016.54] Warning: Warning, Product not found for the XEStatusOverride: 10622
+[0016.54] Warning: Warning, Product not found for the XEStatusOverride: 10623
+[0016.54] Warning: Warning, Product not found for the XEStatusOverride: 10626
+[0016.54] Warning: Warning, Product not found for the XEStatusOverride: 10627
+[0016.54] Warning: Warning, Product not found for the XEStatusOverride: 10628
+[0016.54] Warning: Warning, Product not found for the XEStatusOverride: 10632
+[0016.54] Warning: Warning, Product not found for the XEStatusOverride: 10644
+[0016.54] Warning: Warning, Product not found for the XEStatusOverride: 10653
+[0016.54] Warning: Warning, Product not found for the XEStatusOverride: 10662
+[0016.54] Warning: Warning, Product not found for the XEStatusOverride: 10685
+[0016.54] Warning: Warning, Product not found for the XEStatusOverride: 10686
+[0016.54] Warning: Warning, Product not found for the XEStatusOverride: 10687
+[0016.54] Warning: Warning, Product not found for the XEStatusOverride: 7012
+[0016.54] Warning: Warning, Product not found for the XEStatusOverride: 9947
+[0016.54] Warning: Warning, Product not found for the XEStatusOverride: 10093
+[0016.54] Warning: Warning, Product not found for the XEStatusOverride: 10174
+[0016.54] Warning: Warning, Product not found for the XEStatusOverride: 10420
+[0016.54] Warning: Warning, Product not found for the XEStatusOverride: 10502
+[0016.54] Warning: Warning, Product not found for the XEStatusOverride: 10503
+[0016.54] Warning: Warning, Product not found for the XEStatusOverride: 10512
+[0016.54] Warning: Warning, Product not found for the XEStatusOverride: 10517
+[0016.54] Warning: Warning, Product not found for the XEStatusOverride: 10519
+[0016.54] Warning: Warning, Product not found for the XEStatusOverride: 10520
+[0016.55] Warning: Warning, Product not found for the XEStatusOverride: 10526
+[0016.55] Warning: Warning, Product not found for the XEStatusOverride: 10535
+[0016.55] Warning: Warning, Product not found for the XEStatusOverride: 10642
+[0016.55] Warning: Warning, Product not found for the XEStatusOverride: 10694
+[0016.55] Warning: Warning, Product not found for the XEStatusOverride: 10713
+[0016.55] Warning: Warning, Product not found for the XEStatusOverride: 10714
+[0016.55] Warning: Warning, Product not found for the XEStatusOverride: 10715
+[0016.55] Warning: Warning, Product not found for the XEStatusOverride: 10723
+[0016.55] Warning: Warning, Product not found for the XEStatusOverride: 10724
+[0016.55] Warning: Warning, Product not found for the XEStatusOverride: 10725
+[0016.55] Warning: Warning, Product not found for the XEStatusOverride: 10726
+[0016.55] Warning: Warning, Product not found for the XEStatusOverride: 10727
+[0016.55] Warning: Warning, Product not found for the XEStatusOverride: 10461
+[0016.55] Warning: Warning, Product not found for the XEStatusOverride: 10483
+[0016.55] Warning: Warning, Product not found for the XEStatusOverride: 10517
+[0016.55] Warning: Warning, Product not found for the XEStatusOverride: 10557
+[0016.55] Warning: Warning, Product not found for the XEStatusOverride: 10595
+[0016.55] Warning: Warning, Product not found for the XEStatusOverride: 10630
+[0016.55] Warning: Warning, Product not found for the XEStatusOverride: 10631
+[0016.55] ScriptWarning: ScriptWarning, Assertion failed, line 33
+	ContentConfig_TA Transient.Untitled_0.ContentConfig
+	Function ProjectX.ContentConfig_X:Apply:01D5
+Script call stack:
+	Function ProjectX.OnlineConfigDispatcher_X:ApplyConfigObject
+	Function TAGame.ContentConfig_TA:Apply
+	Function ProjectX.ContentConfig_X:Apply
+
+[0016.61] Log: ProductDatabase_TA::UpdateAvailableProducts  0.06 sec total.
+[0018.09] Log: ProductDatabase_TA::InitProductLabels  0.01 sec total.
+[0018.09] PsyNet: PsyNetConnection_X_0 enabled
+[0018.10] PsyNetStaticData: UpdateCacheTimerEnabled CacheTimer.bEnabled=(True)
+[0018.11] EOSGameClips: Construct Constructed EOSGameClipsManager_TA. Self=(EOSGameClipsManager_TA_0)
+[0018.12] AuthPsyNetVerbose: New auth error. Error 'OSCS_NotConnected'
+[0018.12] AuthPsyNetVerbose: OnlinePlayerAuthentication_TA_0 None Unknown|0|0 Logout
+[0018.12] PsyNet: PsyNetConnection_X_1 disabled OSCS_NotConnected
+[0018.12] AuthPsyNetVerbose: PsyNet connection status changed. Error 'OSCS_NotConnected'
+[0018.12] AuthPsyNetVerbose: New auth error. Error 'OSCS_NotConnected'
+[0018.12] AuthPsyNetVerbose: OnlinePlayerAuthentication_TA_0 LoggedOut Unknown|0|0 Logout
+[0018.12] AuthPlatformCritical: Initiating auth. Player num '0', Name '', Password length '0'
+[0018.12] ScriptLog: HandleBlockListStatusCreated Status=(PlatformBlockListStatus_0) ControllerId=(0)
+[0018.12] AuthEpicCritical: Sending Eos login request with Credentials '{Version '3', Id Length '2', Token Length '32', Type 'EOS_LCT_ExchangeCode', SystemAuthCredentialsOptions null? 'Null', ExternalType 'EOS_ECT_EPIC'}'
+[0018.20] SaveGame: Load Player.ControllerId=(0) SaveFileName=(..\..\TAGame\SaveDataEpic\DBE_Production\97a9a973ac0e41ff971b5f5160336fde.save)
+[0018.20] Breadcrumbs: Startup_InitOnlineSubsystem: 3.622
+[0018.21] DevNet: Browse: MENU_Main_p
+[0018.22] Log: LoadMap: MENU_Main_p
+[0018.22] Exit: XAudio2 Device shut down.
+[0018.27] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GameInfo_GFxMenu_SF.upk
+[0018.79] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFxSounds_MainMenu_SF.upk
+[0018.80] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_StartMenu_SF.upk
+[0019.03] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_MainMenu_SF.upk
+[0019.21] Log: Game class is 'GameInfo_GFxMenu_TA'
+[0019.26] Log: Bringing World menu_main_p.TheWorld up for play (0) at 2024.08.05-20.11.10
+[0019.26] Log: Flushing async loaders.
+[0019.79] Log: Flushed async loaders.
+[0019.80] Log: Bringing up level for play took: 0.585013
+[0020.79] Log: ########### Finished loading level: 2.578529 seconds
+[0022.09] Breadcrumbs: Startup_Browse: 3.888
+[0022.09] Log: Initializing Engine Completed
+[0022.10] Breadcrumbs: Startup_Total: 22.097
+[0022.44] DevOnline: EOSSDK-LogEOSGameClips: Probing for recording system availability.
+[0022.45] DevOnline: WebRequest_X_1 SEND: https://rl-cdn.psyonix.com/SpecialEvent/Images/SummerRoadtrip/rl_summerroadtrip_game_eventscreenlogo_dafsv89.png
+[0022.46] DevOnline: WebRequest_X_2 SEND: https://rl-cdn.psyonix.com/SpecialEvent/Images/SummerRoadtrip/rl_summerroadtrip_eventscreen_fsd879asduj.jpg
+[0022.46] DevOnline: WebRequest_X_3 SEND: https://rl-cdn.psyonix.com/LogoImages/rl_roadtrip_menulogo_sj9d8f7.png
+[0022.47] SaveGame: HandleDataLoaded Result.Code=(BasicLoadResult_Success)
+[0022.47] ScriptLog: NetworkSave_TA_0 ApplySettings ReplicationRate=60 NetSpeed=15000 InputRate=60
+[0024.47] SaveData: Profile_TA_0 OnLoaded LocalID=(0)
+[0024.49] ScriptLog: GetDLCProducts, UnlockedDLCList=
+[0024.67] ScriptLog: GetDLCProducts, UnlockedDLCList=
+[0024.67] SaveGame: LocalPlayer_TA_0 HandleSaveDataLoaded 
+[0024.72] FTECritical: [GFx] Changed active tutorial from 'null' to 'NONE'. Tutorial active? 'false', New checkpoint active? 'false'
+[0024.72] FTEVerbose: Checkpoint 'None' attempted completion while the FTE isn't active!
+[0024.82] Log: Flushing async loaders.
+[0028.20] Log: Flushed async loaders.
+[0028.21] Warning: Warning, Material Body_Bush.Metal missing bUsedWithStaticLighting=True!
+[0028.21] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0028.21] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0028.21] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0028.21] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0028.21] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0028.21] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0028.21] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0028.21] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0028.21] Warning: Warning, Material Body_Bush.grey missing bUsedWithStaticLighting=True!
+[0028.57] XPGatedPlaylists: Not currently in a party.
+[0028.66] DevOnline: EOSSDK-LogEOSGameClips: Recording supported and available.
+[0028.66] DevOnline: EOSSDK-LogEOSGameClips: Recording availability changed from 'Pending' to 'Available'.
+[0028.66] EOSGameClips: EOSGameClips: Availability changed from Pending to Available.
+[0032.98] DevOnline: EOSSDK-LogEOSAnalytics: EOS SDK Analytics disabled for route [1].
+[0033.39] Log: Detected new XInput controller 0
+[0035.00] DevOnline: WebRequest_X_1 RECV: 304 
+[0035.00] DevOnline: WebRequest_X_2 RECV: 304 
+[0035.00] DevOnline: WebRequest_X_3 RECV: 304 
+[0035.17] Log: Flushing async loaders.
+[0035.73] Log: Flushed async loaders.
+[0038.35] AuthEpicCritical: Eos login result 'EOS_Success' for player '0'
+[0038.84] AuthEpicCritical: Connect login result 'EOS_Success' for player '97a9a973ac0e41ff971b5f5160336fde', local num '0'
+[0039.14] AuthPlatformCritical: Login status changed for player '0' to 'LS_LoggedIn'
+[0039.14] AuthPlatformVerbose: Login attempt concluded
+[0039.14] AuthEpicVerbose: Requesting cabined status for player '0'
+[0039.15] DevOnline: WebRequest_X_4 SEND: https://api.epicgames.dev/epic/id/v1/accounts?accountId=97a9a973ac0e41ff971b5f5160336fde
+[0039.15] PsyNet: PsyNetConnection_X_1 enabled
+[0039.15] AuthPsyNetVerbose: PsyNet connection status changed. Error 'None'
+[0039.15] AuthPsyNetVerbose: Transitioning to state 'RequestAuthCode'
+[0039.15] AuthPsyNetCritical: Requesting auth ticket from platform for 'Epic|97a9a973ac0e41ff971b5f5160336fde|0'
+[0039.15] AuthPsyNetCritical: Platform auth ticket completed with success 'True'
+[0039.15] AuthPsyNetVerbose: Transitioning to state 'SendLoginRequest'
+[0039.15] AuthPsyNetCritical: Sending login RPC for player '97a9a973ac0e41ff971b5f5160336fde' Auth ticket required? 'True'
+[0039.15] AuthPsyNetCritical: Primary player ID? 'Epic|97a9a973ac0e41ff971b5f5160336fde|0' Logging In PlayerID '97a9a973ac0e41ff971b5f5160336fde'
+[0039.15] AuthPsyNetVerbose: OnlinePlayerAuthentication_TA_0 SendLoginRequest Epic|97a9a973ac0e41ff971b5f5160336fde|0 HandleLoginStatusChanged LS_LoggedIn Epic|97a9a973ac0e41ff971b5f5160336fde|0
+[0039.15] Party: HandleLocalPlayerLoginStatusChanged PlayerName=1Playert PlayerID=Epic|97a9a973ac0e41ff971b5f5160336fde|0 LoginStatus=LS_LoggedIn IsPrimary=True IsInParty=False
+[0039.15] PsyNet: HTTP send ID=PsyNetMessage_X_0 Message=PsyNetMessage_X_0
+[0039.15] DevOnline: WebRequest_X_5 SEND: https://api.rlpp.psynet.gg/rpc/Auth/AuthPlayer/v2
+[0039.16] XPGatedPlaylists: Not currently in a party.
+[0039.51] ScriptLog: GetDLCProducts, UnlockedDLCList=
+[0039.80] DevOnline: WebRequest_X_5 RECV: 200 
+[0039.80] PsyNet: HTTP recv ID=PsyNetMessage_X_0 Message=PsyNetMessage_X_1
+[0039.82] AuthPsyNetCritical: PsyNet auth RPC succeeded for player '97a9a973ac0e41ff971b5f5160336fde'
+[0039.82] AuthPsyNetVerbose: Transitioning to state 'LoggedIn'
+[0039.82] AuthPsyNetCritical: Login successful for player '97a9a973ac0e41ff971b5f5160336fde'
+[0039.82] Auth: OnlinePlayer_TA_0 OnlinePlayerAuthentication_TA_0 HandleAuthLoginChange Auth.bLoggedIn=(True)
+[0039.82] PsyNet: Enabling PerCon
+[0039.82] PsyNet: PsyNetConnection_X_1 SetAuthorized bAuthorized=True
+[0039.82] RankedReconnect: LocalPlayer_TA_0.CheckForRankedReconnect() bOpenedStartMenu=(False) IsMenuLevel=(True) bLoggedIn=(True) IsPrimaryPlayer=(True) RankedReconnectAvailable=(False) EpochTime=(0) EpochNow=(1722868889) TimeSince=(1722868889) ReconnectTimeoutSeconds=(900) Reservation=()
+[0039.93] XPGatedPlaylists: Not currently in a party.
+[0040.21] DevOnline: WebRequest_X_4 RECV: 200 
+[0040.21] AuthEpicVerbose: Cabined request completed for user '0' with result 'False', Error 'None'
+[0040.21] PsyNet: PsyNetMessengerWebSocket_X_0 Connected
+[0040.21] PsyNet: PsyNetConnection_X_1 UpdateConnectionState bConnected=(True) bFreshConnection=(True)
+[0040.21] DevOnline: WebRequest_X_6 SEND: https://api.kws.ol.epicgames.com/v1/epic-settings/public/users/97a9a973ac0e41ff971b5f5160336fde/values?game=rl
+[0040.32] DevOnline: WebRequest_X_7 SEND: https://api.epicgames.dev/epic/friends/v1/97a9a973ac0e41ff971b5f5160336fde/blocklist
+[0040.38] DevOnline: PlayerDataStorage_QueryFileList: Beginning to query files. User=(97a9a973ac0e41ff971b5f5160336fde)
+[0040.38] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 SetPsyNetConnection InPsyNetConnection=(PsyNetConnection_X_1)
+[0040.38] PsyNet: PsyNetConnection_X_1 UpdateConnectionState bPerConConnected=(True)
+[0040.39] XPGatedPlaylists: Not currently in a party.
+[0040.99] DevOnline: WebRequest_X_7 RECV: 200 
+[0041.02] ScriptLog: HandleStatusChanged PrimaryStatus.DownloadStatus=(EB_Success) ControllerId=(0)
+[0041.11] ScriptLog: ListenForBlockListDownloaded PrimaryStatus=(PlatformBlockListStatus_0) PrimaryStatus.DownloadStatus=(EB_Success)
+[0041.73] EOSVoice: HandleFriendsListChanged
+[0041.78] DevOnline: PlayerDataStorage_QueryFileList: Finished querying files. User=(97a9a973ac0e41ff971b5f5160336fde) Success=(1)
+[0041.78] DevOnline: PlayerDataStorage_ReadFile: Beginning to download file. User=(97a9a973ac0e41ff971b5f5160336fde) FileName=(RLSaveData)
+[0041.81] Log: Assigning XInput controller to 0
+[0041.81] DevOnline: WebRequest_X_6 RECV: 200 
+[0041.82] EOSPermissions: NS=chat SN=voice PL=null EL=null DV=0 IV=0
+[0041.82] EOSPermissions: NS=chat SN=text PL=null EL=null DV=0 IV=0
+[0041.82] EOSPermissions: NS=profile SN=require-pin-to-add-friend PL=null EL=null DV=False IV=False
+[0041.82] EOSPermissions: NS=prm SN=marketing PL=null EL=True DV=True IV=True
+[0041.82] DevOnline: WebRequest_X_8 SEND: https://api.epicgames.dev/epic/friends/v1/97a9a973ac0e41ff971b5f5160336fde/outgoing
+[0041.95] DevOnline: WebRequest_X_9 SEND: https://rl-cdn.psyonix.com/ChallengeIcons/Challenge_Play.jpg
+[0041.95] DevOnline: WebRequest_X_10 SEND: https://rl-cdn.psyonix.com/ChallengeIcons/Challenge_Shot.jpg
+[0041.95] DevOnline: WebRequest_X_11 SEND: https://rl-cdn.psyonix.com/ChallengeIcons/Challenge_Save.jpg
+[0041.95] DevOnline: WebRequest_X_12 SEND: https://rl-cdn.psyonix.com/ChallengeIcons/Challenge_Center.jpg
+[0041.95] DevOnline: WebRequest_X_13 SEND: https://rl-cdn.psyonix.com/ChallengeIcons/Challenge_Win.jpg
+[0041.95] DevOnline: WebRequest_X_14 SEND: https://rl-cdn.psyonix.com/ChallengeIcons/Challenge_AerialGoal.jpg
+[0041.95] DevOnline: WebRequest_X_15 SEND: https://rl-cdn.psyonix.com/ChallengeIcons/Challenge_SAG.jpg
+[0041.95] DevOnline: WebRequest_X_16 SEND: https://rl-cdn.psyonix.com/ChallengeIcons/Challenge_Clear.jpg
+[0041.95] DevOnline: WebRequest_X_17 SEND: https://rl-cdn.psyonix.com/ChallengeIcons/Challenge_Goal.jpg
+[0041.97] DevOnline: WebRequest_X_18 SEND: https://rl-cdn.psyonix.com/ChallengeBanners/NUX_Popup_Octane.png
+[0041.97] DevOnline: WebRequest_X_19 SEND: https://rl-cdn.psyonix.com/SpecialEvent/Images/SummerRoadtrip/rl_roadtrip_game_eventwidget_adsf89g.png
+[0041.98] DevOnline: WebRequest_X_20 SEND: https://rl-cdn.psyonix.com/SpecialEvent/Images/SummerRoadtrip/rl_roadtrip_dashboard_sdf789u.png
+[0041.98] DevOnline: WebRequest_X_21 SEND: https://rl-cdn.psyonix.com/ChallengeBanners/Season_imagery_Reward.png
+[0041.99] DevOnline: WebRequest_X_22 SEND: https://rl-cdn.psyonix.com/RocketPass/Images/S15/rl_s15_challengedashboard_fs7d8.png
+[0042.11] DevOnline: WebRequest_X_9 RECV: 304 
+[0042.12] DevOnline: WebRequest_X_10 RECV: 304 
+[0042.12] Legacy: State Set
+[0042.12] FTEVerbose: [GFx] Checking FTE progress: Shown login flow 'false', Legal modal valid? 'true', Online? 'true', Cabined state '0', Legacy state '3'
+[0042.12] FTEDev: Trying to start FTE Group Prime_InitialStartup which is already completed and cannot be restarted CurrentActiveGroup.bCanBeDoneAgain=(False) bIgnoreCompletion=(False)
+[0042.12] AuthEpicVerbose: [GFx] Showing login flow. Platform linked? 'false' Prompt for epic link? 'false' Prompt for primary? 'false' Prompt for parental consent? 'false' Epic data loaded? 'false' Showing epic flow? 'false'
+[0042.12] AuthEpicVerbose: [GFx] Epic flow completed 'false'
+[0042.13] FTE: Starting Group:Prime_LegalText at Checkpoint:FTE_PrimaryPlayerIsXboxGuest
+[0042.13] FTEVerbose: [GFx] Checking FTE progress: Shown login flow 'true', Legal modal valid? 'true', Online? 'true', Cabined state '0', Legacy state '3'
+[0042.13] FTEDev: Trying to start FTE Group Prime_InitialStartup while another Group Prime_LegalText is active
+[0042.13] FTE: CompleteCheckpoint GroupName=(Prime_LegalText) CheckpointName=(FTE_PrimaryPlayerIsXboxGuest)
+[0042.13] FTE: Moving to Checkpoint:FTE_PrivacyPolicy
+[0042.13] FTEVerbose: [GFx] Checking FTE progress: Shown login flow 'true', Legal modal valid? 'true', Online? 'true', Cabined state '0', Legacy state '3'
+[0042.13] FTEDev: Trying to start FTE Group Prime_InitialStartup while another Group Prime_LegalText is active
+[0042.13] FTE: CompleteCheckpoint GroupName=(Prime_LegalText) CheckpointName=(FTE_PrivacyPolicy)
+[0042.13] FTE: Moving to Checkpoint:FTE_EulaText
+[0042.13] FTEVerbose: [GFx] Checking FTE progress: Shown login flow 'true', Legal modal valid? 'true', Online? 'true', Cabined state '0', Legacy state '3'
+[0042.13] FTEDev: Trying to start FTE Group Prime_InitialStartup while another Group Prime_LegalText is active
+[0042.13] FTE: CompleteCheckpoint GroupName=(Prime_LegalText) CheckpointName=(FTE_EulaText)
+[0042.13] FTE: CompleteActiveGroup GroupName:Prime_LegalText
+[0042.14] FTEVerbose: [GFx] Checking FTE progress: Shown login flow 'true', Legal modal valid? 'true', Online? 'true', Cabined state '0', Legacy state '3'
+[0042.14] FTEDev: Trying to start FTE Group Prime_InitialStartup which is already completed and cannot be restarted CurrentActiveGroup.bCanBeDoneAgain=(False) bIgnoreCompletion=(False)
+[0042.14] FTEVerbose: [GFx] Checking FTE progress: Shown login flow 'true', Legal modal valid? 'true', Online? 'true', Cabined state '0', Legacy state '3'
+[0042.14] FTEDev: Trying to start FTE Group Prime_InitialStartup which is already completed and cannot be restarted CurrentActiveGroup.bCanBeDoneAgain=(False) bIgnoreCompletion=(False)
+[0042.14] FTEDev: Trying to start FTE Group Prime_FreeToPlayTutorial_1 which is already completed and cannot be restarted CurrentActiveGroup.bCanBeDoneAgain=(False) bIgnoreCompletion=(False)
+[0042.14] FTECritical: [GFx] Changed active tutorial from 'null' to 'NONE'. Tutorial active? 'false', New checkpoint active? 'false'
+[0042.14] FTEVerbose: Checkpoint 'None' attempted completion while the FTE isn't active!
+[0042.14] FTEVerbose: [GFx] Checking FTE progress: Shown login flow 'true', Legal modal valid? 'true', Online? 'true', Cabined state '0', Legacy state '3'
+[0042.14] FTEDev: Trying to start FTE Group Prime_InitialStartup which is already completed and cannot be restarted CurrentActiveGroup.bCanBeDoneAgain=(False) bIgnoreCompletion=(False)
+[0042.14] FTEDev: Trying to start FTE Group Prime_FreeToPlayTutorial_1 which is already completed and cannot be restarted CurrentActiveGroup.bCanBeDoneAgain=(False) bIgnoreCompletion=(False)
+[0042.17] DevOnline: WebRequest_X_23 SEND: https://rl-cdn.psyonix.com/Playlists/Images/rl_event_mode_bg_heatseeker.jpg
+[0042.18] DevOnline: WebRequest_X_24 SEND: https://rl-cdn.psyonix.com/Playlists/Images/Finals/playlist_ltm_heatseekerricochet_sfjko.png
+[0042.19] DevOnline: WebRequest_X_25 SEND: https://rl-cdn.psyonix.com/Playlists/Images/rl_knockout_bash_2022_playlist_details_image.jpg
+[0042.20] AuthEpicVerbose: [GFx] Epic login changed. m_uiState:MainMenu bPromptParentalConsent:false bPromptToChoosePrimaryAccount:false bEpicSaveDataLoaded:false bPlatformLinked:false
+[0042.20] FTEDev: Trying to start FTE Group Prime_MatchComplete which is already completed and cannot be restarted CurrentActiveGroup.bCanBeDoneAgain=(False) bIgnoreCompletion=(False)
+[0042.20] FTEDev: Group Prime_LegacyUpdate Is not meant for users of type FTESave.LegacyGroupType=(LGT_NewUser)
+[0042.28] RankedReconnect: LocalPlayer_TA_0.CheckForRankedReconnect() bOpenedStartMenu=(True) IsMenuLevel=(True) bLoggedIn=(True) IsPrimaryPlayer=(True) RankedReconnectAvailable=(False) EpochTime=(0) EpochNow=(1722868892) TimeSince=(1722868892) ReconnectTimeoutSeconds=(900) Reservation=()
+[0042.29] MTX: ConditionalClaimEntitlements bAllowEntitlements=(True) bClaimingEntitlements=(False) bEntitlementsDirty=(True) PsyNetConnected=(True) SplitscreenID=(0) bMtxCodeExpired=(False)
+[0042.29] MTX: HandleMtxCode bSuccess=True
+[0042.29] Log: Flushing async loaders.
+[0042.58] Log: Flushed async loaders.
+[0043.02] DevOnline: WebRequest_X_8 RECV: 200 
+[0043.02] Log: FSaveDataExportTask(0) wrote 257223 bytes to memory
+[0043.03] Log: SaveGameDataAsync game thread time: 2 ms
+[0043.03] DevOnline: WebRequest_X_26 SEND: https://rl-cdn.psyonix.com/Blog/Images/rl_SRT_CyberTruck_newspanel_W_Logo
+[0043.03] ScriptLog: RegionPinger_X_0 PingRegions ("35.245.20.108:8261","138.128.143.139:10327","162.245.206.10:26517","109.200.205.32:26240","43.239.136.70:16609","54.251.207.217:8851","57.180.20.116:7957","15.185.165.222:7971","109.200.213.169:18327","13.246.20.3:8629","185.50.105.185:15778","3.109.214.134:7785")
+[0044.73] Log: Deleting old save file ..\..\TAGame\SaveDataEpic\DBE_Production\97a9a973ac0e41ff971b5f5160336fde.save
+[0044.73] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveDataEpic\DBE_Production\97a9a973ac0e41ff971b5f5160336fde_2.save] Result:[1]
+[0044.74] DevOnline: WebRequest_X_12 RECV: 304 
+[0044.74] DevOnline: WebRequest_X_23 RECV: 304 
+[0044.74] DevOnline: WebRequest_X_24 RECV: 304 
+[0044.79] DevOnline: WebRequest_X_11 RECV: 304 
+[0044.79] DevOnline: WebRequest_X_13 RECV: 304 
+[0044.79] DevOnline: WebRequest_X_14 RECV: 304 
+[0044.79] DevOnline: WebRequest_X_15 RECV: 304 
+[0044.79] DevOnline: WebRequest_X_16 RECV: 304 
+[0044.79] DevOnline: WebRequest_X_17 RECV: 304 
+[0044.79] DevOnline: WebRequest_X_18 RECV: 304 
+[0044.80] DevOnline: WebRequest_X_19 RECV: 304 
+[0044.80] DevOnline: WebRequest_X_20 RECV: 304 
+[0044.80] DevOnline: WebRequest_X_21 RECV: 304 
+[0044.80] DevOnline: WebRequest_X_22 RECV: 304 
+[0044.80] DevOnline: WebRequest_X_26 RECV: 304 
+[0045.26] DevOnline: WebRequest_X_25 RECV: 304 
+[0045.86] MTX: HandleClaimSuccess Products=0
+[0046.38] DevOnline: PlayerDataStorage_ReadFile: File download complete. User=(97a9a973ac0e41ff971b5f5160336fde) FileName=(RLSaveData) Success=(1)
+[0046.39] EOSSync: HandleFileReadComplete LocalSaveTick: 68
+[0046.39] EOSSync: HandleFileReadComplete OnlineSaveTick: 64
+[0046.39] EOSSync: HandleFileReadComplete Local Save is up to date, keeping this file
+[0046.39] ScriptLog: NewProductIDs128: 
+[0046.39] ScriptLog: GetDLCProducts, UnlockedDLCList=
+[0046.39] AuthEpicVerbose: Epic save data loaded
+[0046.39] AuthEpicVerbose: [GFx] Epic login changed. m_uiState:MainMenu bPromptParentalConsent:false bPromptToChoosePrimaryAccount:false bEpicSaveDataLoaded:true bPlatformLinked:true
+[0046.39] ScriptLog: GetDLCProducts, UnlockedDLCList=
+[0046.40] DevOnline: WebRequest_X_27 SEND: https://rl-cdn.psyonix.com/Legal/PC/EULA/INT.txt
+[0046.40] DevOnline: WebRequest_X_28 SEND: https://rl-cdn.psyonix.com/Legal/PC/PrivacyPolicy/INT.txt
+[0046.40] DevOnline: WebRequest_X_29 SEND: https://rl-cdn.psyonix.com/Legal/PC/ToS/INT.txt
+[0046.40] DevOnline: WebRequest_X_30 SEND: https://rl-cdn.psyonix.com/Legal/PC/SCT/INT.txt
+[0046.40] DevOnline: WebRequest_X_31 SEND: https://rl-cdn.psyonix.com/Legal/PC/PaymentServices/INT.txt
+[0046.46] DevOnline: WebRequest_X_27 RECV: 304 
+[0047.53] DevOnline: WebRequest_X_28 RECV: 304 
+[0047.53] DevOnline: WebRequest_X_29 RECV: 304 
+[0048.37] DevOnline: WebRequest_X_30 RECV: 304 
+[0048.73] DevOnline: WebRequest_X_31 RECV: 304 
+[0049.20] Matchmaking: All Regions Pinged: USE (0.2587),USC (0.2683),USW (0.2611),EU (0.1592),ASC (0.1339),ASM (0.1090),JPN (0.1589),ME (0.0742),OCE (0.0494),SAF (0.0243),SAM (0.3814),IND (0.0485)
+[0049.20] Log: FCacheExportTask(..\..\TAGame\Cache\RegionCache.cache) wrote 1159 bytes to memory
+[0057.97] DevNet: Browse: Park_p?Game=TAGame.GameInfo_Tutorial_TA?Goalie?Easy
+[0058.32] Log: FSaveDataExportTask(0) wrote 257222 bytes to memory
+[0058.32] Log: SaveGameDataAsync game thread time: 3 ms
+[0058.33] Log: Flushing async loaders.
+[0058.34] Log: Flushed async loaders.
+[0058.34] Log: LoadMap: Park_p?Game=TAGame.GameInfo_Tutorial_TA?Goalie?Easy
+[0058.37] Log: Deleting old save file ..\..\TAGame\SaveDataEpic\DBE_Production\97a9a973ac0e41ff971b5f5160336fde_1.save
+[0058.37] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveDataEpic\DBE_Production\97a9a973ac0e41ff971b5f5160336fde.save] Result:[1]
+[0058.39] DevOnline: PsyNet Flush Start TimeoutSeconds=0.250000
+[0058.64] DevOnline: PsyNet Flush End
+[0059.99] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GameInfo_Tutorial_SF.upk
+[0060.71] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFxSounds_XP_SF.upk
+[0060.84] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFx_XPProgressMenu_SF.upk
+[0061.01] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_EndGameMenu_SF.upk
+[0061.20] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_WinnerMenu_SF.upk
+[0061.25] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_MidGameScoreboard_SF.upk
+[0061.29] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_MidGameMenu_SF.upk
+[0061.38] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_HudMatchInfo_SF.upk
+[0061.46] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_Hud_SF.upk
+[0061.61] Log: Game class is 'GameInfo_Tutorial_TA'
+[0061.66] Log: Bringing World Park_P.TheWorld up for play (0) at 2024.08.05-20.11.52
+[0061.66] Log: Flushing async loaders.
+[0062.57] Log: Flushed async loaders.
+[0062.57] MatchBroadcast: Init bBroadcastMatch=(False) MatchLog=(None)
+[0062.57] ScriptLog: MatchTypeClass=(MatchType_Tutorial_TA)
+[0063.07] ScriptWarning: ScriptWarning, Accessed None 'Actor'
+	GFxShell_TA Transient.GFxShell_TA_0
+	Function TAGame.GFxShell_TA:GetKeyForAction:002F
+Script call stack:
+	Function TAGame.GFxShell_TA:GetKeyForAction
+
+[0063.07] ScriptWarning: ScriptWarning, Accessed None 'Actor'
+	GFxShell_TA Transient.GFxShell_TA_0
+	Function TAGame.GFxShell_TA:GetKeyForAction:002F
+Script call stack:
+	Function TAGame.GFxShell_TA:GetKeyForAction
+
+[0063.08] ScriptWarning: ScriptWarning, Accessed None 'Actor'
+	GFxShell_TA Transient.GFxShell_TA_0
+	Function TAGame.GFxShell_TA:GetKeyForAction:002F
+Script call stack:
+	Function TAGame.GFxShell_TA:GetKeyForAction
+
+[0063.08] ScriptWarning: ScriptWarning, Accessed None 'Actor'
+	GFxShell_TA Transient.GFxShell_TA_0
+	Function TAGame.GFxShell_TA:GetKeyForAction:002F
+Script call stack:
+	Function TAGame.GFxShell_TA:GetKeyForAction
+
+[0063.09] ScriptWarning: ScriptWarning, Accessed None 'PC'
+	GFxData_MultiItemDrops_TA Transient.GFxData_MultiItemDrops_TA_0
+	Function TAGame.GFxData_MultiItemDrops_TA:GetUnseenContainerDrops:008B
+Script call stack:
+	Function TAGame.GFxData_MultiItemDrops_TA:GetUnseenContainerDrops
+
+[0063.12] LTM: SettingsType=(CustomMatchSettingsType_PrivateMatch)
+[0063.12] LTM: SettingsType=(CustomMatchSettingsType_PrivateMatch) InSettingsType=(CustomMatchSettingsType_LocalMatch)
+[0063.12] Log: Bringing up level for play took: 1.510596
+[0063.40] EOSVoice: Not requesting voice token, no MatchGUID
+[0063.40] ScriptLog: Car Info -- Difficulty==D_Easy WaveIndex==0 RandomIndex==0 BallRotationType==Rot_Auto
+[0063.40] Log: ########### Finished loading level: 5.059786 seconds
+[0063.42] Warning: Warning, Failed to load 'Object Archetypes.Tutorial.Training_Goalie': Failed to find object 'Object Archetypes.Tutorial.Training_Goalie'
+[0063.42] Error: Error, GetTextArchetype() - Could not find archetype for 'Archetypes.Tutorial.Training_Goalie'
+[0063.42] ScriptWarning: ScriptWarning, Accessed None 'TutorialName'
+	GameEvent_Training_Goalie_TA Park_P.TheWorld:PersistentLevel.GameEvent_Training_Goalie_TA_0
+	Function TAGame.GameEvent_Tutorial_TA:StartTutorial:0059
+Script call stack:
+	State TAGame.GameEvent_Tutorial_TA:Intro
+	Function TAGame.GameEvent_Tutorial_TA:Intro.InitIntro
+	Function TAGame.GameEvent_Tutorial_TA:StartTutorial
+
+[0063.43] ScriptLog: Shot Info -- Difficulty==D_Easy WaveIndex==0 RandomIndex==0 BallVelocity==1607.8589 BallRotationType==Rot_Auto
+[0076.54] EOSGameClips: EOSGameClips: Currently recording: false
+[0082.94] ScriptLog: Car Info -- Difficulty==D_Easy WaveIndex==0 RandomIndex==0 BallRotationType==Rot_Auto
+[0082.95] ScriptLog: Shot Info -- Difficulty==D_Easy WaveIndex==0 RandomIndex==0 BallVelocity==1506.9717 BallRotationType==Rot_Auto
+[0094.22] EOSGameClips: EOSGameClips: Currently recording: false
+[0095.47] ScriptLog: Car Info -- Difficulty==D_Easy WaveIndex==0 RandomIndex==0 BallRotationType==Rot_Auto
+[0095.47] ScriptLog: Shot Info -- Difficulty==D_Easy WaveIndex==0 RandomIndex==0 BallVelocity==1577.5074 BallRotationType==Rot_Auto
+[0103.99] DevOnline: WebRequest_X_32 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=-665562285&AppEnvironment=Prod&UploadType=eteventstream&UserID=|97a9a973ac0e41ff971b5f5160336fde|||Epic|97a9a973ac0e41ff971b5f5160336fde|0&SessionID=09EFC1FE4FED67C219012287045F1293
+[0105.05] DevOnline: WebRequest_X_32 RECV: 204 
+[0106.74] EOSGameClips: EOSGameClips: Currently recording: false
+[0106.88] ScriptLog: Car Info -- Difficulty==D_Easy WaveIndex==1 RandomIndex==1 BallRotationType==Rot_Auto
+[0106.89] ScriptLog: Shot Info -- Difficulty==D_Easy WaveIndex==1 RandomIndex==1 BallVelocity==2539.4155 BallRotationType==Rot_Auto
+[0118.28] EOSGameClips: EOSGameClips: Currently recording: false
+[0119.03] ScriptLog: Car Info -- Difficulty==D_Easy WaveIndex==1 RandomIndex==2 BallRotationType==Rot_Auto
+[0119.04] ScriptLog: Shot Info -- Difficulty==D_Easy WaveIndex==1 RandomIndex==2 BallVelocity==1361.3975 BallRotationType==Rot_Auto
+[0129.57] EOSGameClips: EOSGameClips: Currently recording: false
+[0130.25] ScriptLog: Car Info -- Difficulty==D_Easy WaveIndex==1 RandomIndex==0 BallRotationType==Rot_Auto
+[0130.25] ScriptLog: Shot Info -- Difficulty==D_Easy WaveIndex==1 RandomIndex==0 BallVelocity==1875.1826 BallRotationType==Rot_Auto
+[0142.07] EOSGameClips: EOSGameClips: Currently recording: false
+[0142.94] ScriptLog: Car Info -- Difficulty==D_Easy WaveIndex==2 RandomIndex==0 BallRotationType==Rot_Auto
+[0142.95] ScriptLog: Shot Info -- Difficulty==D_Easy WaveIndex==2 RandomIndex==0 BallVelocity==2850.2935 BallRotationType==Rot_AutoForward
+[0153.57] EOSGameClips: EOSGameClips: Currently recording: false
+[0154.79] ScriptLog: Car Info -- Difficulty==D_Easy WaveIndex==2 RandomIndex==0 BallRotationType==Rot_Auto
+[0154.80] ScriptLog: Shot Info -- Difficulty==D_Easy WaveIndex==2 RandomIndex==0 BallVelocity==2880.6936 BallRotationType==Rot_AutoForward
+[0164.00] DevOnline: WebRequest_X_33 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=-665562285&AppEnvironment=Prod&UploadType=eteventstream&UserID=|97a9a973ac0e41ff971b5f5160336fde|||Epic|97a9a973ac0e41ff971b5f5160336fde|0&SessionID=09EFC1FE4FED67C219012287045F1293
+[0164.27] DevOnline: WebRequest_X_33 RECV: 204 
+[0165.33] EOSGameClips: EOSGameClips: Currently recording: false
+[0166.54] ScriptLog: Car Info -- Difficulty==D_Easy WaveIndex==3 RandomIndex==1 BallRotationType==Rot_World
+[0166.54] ScriptLog: Shot Info -- Difficulty==D_Easy WaveIndex==3 RandomIndex==1 BallVelocity==1612.1736 BallRotationType==Rot_AutoForward
+[0179.93] EOSGameClips: EOSGameClips: Currently recording: false
+[0182.22] ScriptLog: Car Info -- Difficulty==D_Easy WaveIndex==3 RandomIndex==0 BallRotationType==Rot_World
+[0182.24] ScriptLog: Shot Info -- Difficulty==D_Easy WaveIndex==3 RandomIndex==0 BallVelocity==1409.4912 BallRotationType==Rot_AutoForward
+[0195.70] EOSGameClips: EOSGameClips: Currently recording: false
+[0199.27] SpawnPoint: SpawnPointsPodiumAnim.SetSpawnPoints() SpawnTeams.Length=(1)
+[0199.27] SpawnPoint: TeamA.SetupPoints() MaxSpots=(4)
+[0199.27] SpawnPoint: TeamA.SetupPoints() i=(0) SpawnPoints[i]=(TraceableSpawnPoint_TA_0)
+[0199.28] SpawnPoint: TeamA.SetupPoints() i=(1) SpawnPoints[i]=(TraceableSpawnPoint_TA_1)
+[0199.28] SpawnPoint: TeamA.SetupPoints() i=(2) SpawnPoints[i]=(TraceableSpawnPoint_TA_2)
+[0199.28] SpawnPoint: TeamA.SetupPoints() i=(3) SpawnPoints[i]=(TraceableSpawnPoint_TA_3)
+[0199.28] SpawnPoint: SpawnPointsPodium.SetSpawnPoints() SpawnTeams.Length=(1)
+[0199.28] SpawnPoint: TeamA.SetupPoints() MaxSpots=(4)
+[0199.28] SpawnPoint: TeamA.SetupPoints() i=(0) SpawnPoints[i]=(TraceableSpawnPoint_TA_4)
+[0199.28] SpawnPoint: TeamA.SetupPoints() i=(1) SpawnPoints[i]=(TraceableSpawnPoint_TA_5)
+[0199.28] SpawnPoint: TeamA.SetupPoints() i=(2) SpawnPoints[i]=(TraceableSpawnPoint_TA_6)
+[0199.28] SpawnPoint: TeamA.SetupPoints() i=(3) SpawnPoints[i]=(TraceableSpawnPoint_TA_7)
+[0199.28] SpawnPoint: TeamA.GetSpawnOrientation() SpotPRI.Length=(4) SpawnPoints.Length=(4)
+[0199.28] SpawnPoint: TeamA.GetSpawnOrientation() i=(0) SpawnPoints[i]=(TraceableSpawnPoint_TA_4)
+[0199.28] RankedReconnect: RankedReconnectSave_TA_0.ClearRankedReconnect()
+[0199.28] RankedReconnect: RankedReconnectSave_TA_0.ClearRankedReconnect()
+[0199.28] RankedReconnect: RankedReconnectSave_TA_0.ClearRankedReconnect()
+[0199.28] RankedReconnect: RankedReconnectSave_TA_0.ClearRankedReconnect()
+[0199.45] Online: TryToPlayOnline ControllerID=(-1)
+[0199.47] Online: HandlePrivilegeCheckFinished PrivilegeCheck.bHasRestriction=(False)
+[0199.47] Online: HandlePrivilegeCheck PrivilegeCheck.bHasRestriction=(False)
+[0199.86] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Challenges/PlayerProgress 
+[0200.66] Log: FSaveDataExportTask(0) wrote 257546 bytes to memory
+[0200.67] Log: SaveGameDataAsync game thread time: 3 ms
+[0200.70] Log: Deleting old save file ..\..\TAGame\SaveDataEpic\DBE_Production\97a9a973ac0e41ff971b5f5160336fde_2.save
+[0200.70] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveDataEpic\DBE_Production\97a9a973ac0e41ff971b5f5160336fde_1.save] Result:[1]
+[0202.56] EOSVoice: Not requesting voice token, no MatchGUID
+[0202.56] MatchBroadcast: Init bBroadcastMatch=(False) MatchLog=(None)
+[0202.56] ScriptLog: MatchTypeClass=(MatchType_Tutorial_TA)
+[0202.56] LTM: SettingsType=(CustomMatchSettingsType_LocalMatch) InSettingsType=(CustomMatchSettingsType_LocalMatch)
+[0202.71] EOSVoice: Not requesting voice token, no MatchGUID
+[0202.71] ScriptLog: Car Info -- Difficulty==D_Easy WaveIndex==0 RandomIndex==0 BallRotationType==Rot_Auto
+[0202.84] ScriptLog: Shot Info -- Difficulty==D_Easy WaveIndex==0 RandomIndex==0 BallVelocity==1427.2664 BallRotationType==Rot_Auto
+[0216.63] EOSGameClips: EOSGameClips: Currently recording: false
+[0217.17] ScriptLog: Car Info -- Difficulty==D_Easy WaveIndex==0 RandomIndex==0 BallRotationType==Rot_Auto
+[0217.18] ScriptLog: Shot Info -- Difficulty==D_Easy WaveIndex==0 RandomIndex==0 BallVelocity==1575.7327 BallRotationType==Rot_Auto
+[0224.00] DevOnline: WebRequest_X_34 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=-665562285&AppEnvironment=Prod&UploadType=eteventstream&UserID=|97a9a973ac0e41ff971b5f5160336fde|||Epic|97a9a973ac0e41ff971b5f5160336fde|0&SessionID=09EFC1FE4FED67C219012287045F1293
+[0224.25] DevOnline: WebRequest_X_34 RECV: 204 
+[0227.58] EOSGameClips: EOSGameClips: Currently recording: false
+[0227.66] ScriptLog: Car Info -- Difficulty==D_Easy WaveIndex==0 RandomIndex==0 BallRotationType==Rot_Auto
+[0227.67] ScriptLog: Shot Info -- Difficulty==D_Easy WaveIndex==0 RandomIndex==0 BallVelocity==1477.4563 BallRotationType==Rot_Auto
+[0237.88] EOSGameClips: EOSGameClips: Currently recording: false
+[0238.02] ScriptLog: Car Info -- Difficulty==D_Easy WaveIndex==1 RandomIndex==2 BallRotationType==Rot_Auto
+[0238.03] ScriptLog: Shot Info -- Difficulty==D_Easy WaveIndex==1 RandomIndex==2 BallVelocity==1367.9983 BallRotationType==Rot_Auto
+[0247.80] EOSGameClips: EOSGameClips: Currently recording: false
+[0247.95] ScriptLog: Car Info -- Difficulty==D_Easy WaveIndex==1 RandomIndex==0 BallRotationType==Rot_Auto
+[0247.95] ScriptLog: Shot Info -- Difficulty==D_Easy WaveIndex==1 RandomIndex==0 BallVelocity==1281.7772 BallRotationType==Rot_Auto
+[0260.57] EOSGameClips: EOSGameClips: Currently recording: false
+[0260.61] ScriptLog: Car Info -- Difficulty==D_Easy WaveIndex==1 RandomIndex==1 BallRotationType==Rot_Auto
+[0260.61] ScriptLog: Shot Info -- Difficulty==D_Easy WaveIndex==1 RandomIndex==1 BallVelocity==2185.9583 BallRotationType==Rot_Auto
+[0270.88] EOSGameClips: EOSGameClips: Currently recording: false
+[0271.79] ScriptLog: Car Info -- Difficulty==D_Easy WaveIndex==2 RandomIndex==0 BallRotationType==Rot_Auto
+[0271.80] ScriptLog: Shot Info -- Difficulty==D_Easy WaveIndex==2 RandomIndex==0 BallVelocity==2914.3000 BallRotationType==Rot_AutoForward
+[0281.96] EOSGameClips: EOSGameClips: Currently recording: false
+[0282.63] ScriptLog: Car Info -- Difficulty==D_Easy WaveIndex==2 RandomIndex==0 BallRotationType==Rot_Auto
+[0282.63] ScriptLog: Shot Info -- Difficulty==D_Easy WaveIndex==2 RandomIndex==0 BallVelocity==2864.4485 BallRotationType==Rot_AutoForward
+[0284.00] DevOnline: WebRequest_X_35 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=-665562285&AppEnvironment=Prod&UploadType=eteventstream&UserID=|97a9a973ac0e41ff971b5f5160336fde|||Epic|97a9a973ac0e41ff971b5f5160336fde|0&SessionID=09EFC1FE4FED67C219012287045F1293
+[0284.24] DevOnline: WebRequest_X_35 RECV: 204 
+[0292.98] EOSGameClips: EOSGameClips: Currently recording: false
+[0293.28] ScriptLog: Car Info -- Difficulty==D_Easy WaveIndex==3 RandomIndex==1 BallRotationType==Rot_World
+[0293.29] ScriptLog: Shot Info -- Difficulty==D_Easy WaveIndex==3 RandomIndex==1 BallVelocity==1502.9144 BallRotationType==Rot_AutoForward
+[0306.58] EOSGameClips: EOSGameClips: Currently recording: false
+[0307.17] ScriptLog: Car Info -- Difficulty==D_Easy WaveIndex==3 RandomIndex==0 BallRotationType==Rot_World
+[0307.17] ScriptLog: Shot Info -- Difficulty==D_Easy WaveIndex==3 RandomIndex==0 BallVelocity==1618.9899 BallRotationType==Rot_AutoForward
+[0320.36] EOSGameClips: EOSGameClips: Currently recording: false
+[0321.94] EOSGameClips: EOSGameClips: Currently recording: false
+[0327.83] Log: FSaveDataExportTask(0) wrote 257546 bytes to memory
+[0327.83] Log: SaveGameDataAsync game thread time: 2 ms
+[0327.83] Log: All Windows Closed
+[0327.83] Log: appRequestExit(0)
+[0327.87] Log: Deleting old save file ..\..\TAGame\SaveDataEpic\DBE_Production\97a9a973ac0e41ff971b5f5160336fde.save
+[0327.87] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveDataEpic\DBE_Production\97a9a973ac0e41ff971b5f5160336fde_2.save] Result:[1]
+[0328.03] Matchmaking: OnlineGameMatchmaking_X_0 OnlineGameMatchmaking_X -> None
+[0328.03] Matchmaking: OnlineGameTourMatchmaking_TA_0 OnlineGameTourMatchmaking_TA -> None
+[0328.03] DevOnline: PsyNet Flush Start TimeoutSeconds=0.500000
+[0328.40] DevOnline: PsyNet Flush End
+[0328.41] Exit: Preparing to exit.
+[0328.59] Exit: Game engine shut down
+[0328.59] Exit: Windows client shut down
+[0328.61] Exit: AK Audio shut down.
+[0342.19] Exit: Object subsystem successfully closed.
+[0342.25] DevOnline: EOSSDK-LogEOSUI: Social Overlay: browser was closed. Reopening...
+[0342.25] DevOnline: EOSSDK-LogEOSOverlay: Overlay not ready to load <Redacted>, WidgetManager=0, TickThread=1, RenderProcess=1, GraphicsReady=0
+[0342.25] DevOnline: EOSSDK-LogEOSUI: Social Overlay: Load not ready. will retry.
+[0344.44] Exit: Exiting.
+[0344.44] Log: Log file closed, 05/08/2024 20:16:35
